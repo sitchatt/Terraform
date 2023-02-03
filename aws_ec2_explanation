@@ -1,0 +1,9 @@
+Explanation :
+
+The first section defines the AWS provider, which is used to interact with the AWS API to create resources. In this example, the region variable is set to us-west-2, which specifies the region in which to create the EC2 instance.
+
+The second section defines an AWS resource of type aws_instance. This resource block creates an EC2 instance in AWS.
+
+The ami variable is set to ami-0c55b159cbfafe1f0, which is the Amazon Machine Image (AMI) ID of the EC2 instance. The instance_type is set to t2.micro, which specifies the instance type of the EC2 instance.
+
+The tags block allows you to assign metadata to the EC2 instance in the form of key-value pairs. In this example, the EC2 instance is given a Name tag with the value example-instance.
